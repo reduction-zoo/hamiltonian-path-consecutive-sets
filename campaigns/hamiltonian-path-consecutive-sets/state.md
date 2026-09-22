@@ -1,7 +1,7 @@
 # Campaign state
 
-Status: prepared. Date: 2026-09-22. Authorized rounds: 20; used: 0;
-remaining: 20; mechanisms: 0.
+Status: round 001 declared. Date: 2026-09-22. Authorized rounds: 20; used: 1;
+remaining: 19; mechanisms: 1.
 
 The campaign was selected from the board's fixed
 `hamiltonian-path-consecutive-sets` record. The destination was absent and is an
@@ -25,8 +25,9 @@ measured usage are not yet recorded.
 
 | Round | Mechanism or literature scope | First discriminating check | Outcome | Record |
 |---|---|---|---|---|
+| 001 | Private vertex symbols and shared edge symbols | Prepared closed loop, especially the star branching obstruction | Pending | `rounds/001/round.md` |
 
 ## Next action
 
-Commit the prepared testing foundation, then inspect the upstream issue and
-primary literature before declaring Round 001.
+Commit the round declaration, implement the overlap construction and arbitrary-
+string extractor, then run the prepared closed loop.
