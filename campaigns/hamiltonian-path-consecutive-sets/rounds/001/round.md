@@ -54,3 +54,9 @@ single positions without violating interval geometry.
 Stop or repair if any actual valid string yields fewer than `n-1` recoverable
 set overlaps, a branching occurrence-interval graph, or a nonedge between
 consecutive recovered vertices.
+
+## Prepared result
+
+Passed all ten stored instances and 34 recoveries: 30 distinct positive target
+strings and four negative outputs. The star obstruction remained infeasible.
+The candidate is ready for independent verification.

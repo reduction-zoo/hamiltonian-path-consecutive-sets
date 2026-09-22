@@ -1,6 +1,6 @@
 # Campaign state
 
-Status: round 001 declared. Date: 2026-09-22. Authorized rounds: 20; used: 1;
+Status: candidate passed prepared checks. Date: 2026-09-22. Authorized rounds: 20; used: 1;
 remaining: 19; mechanisms: 1.
 
 The campaign was selected from the board's fixed
@@ -25,9 +25,9 @@ measured usage are not yet recorded.
 
 | Round | Mechanism or literature scope | First discriminating check | Outcome | Record |
 |---|---|---|---|---|
-| 001 | Private vertex symbols and shared edge symbols | Prepared closed loop, especially the star branching obstruction | Pending | `rounds/001/round.md` |
+| 001 | Private vertex symbols and shared edge symbols | Prepared closed loop, especially the star branching obstruction | Passed: 10 instances, 34 recoveries | `rounds/001/round.md` |
 
 ## Next action
 
-Commit the round declaration, implement the overlap construction and arbitrary-
-string extractor, then run the prepared closed loop.
+Commit the candidate and proof, then independently verify exhaustive small
+graphs, repeated-symbol strings and arbitrary occurrence choices.
