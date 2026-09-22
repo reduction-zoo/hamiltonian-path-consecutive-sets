@@ -96,8 +96,10 @@ interval pairs before traversing the recovered path. Neither map calls a solver.
 
 ## Provenance
 
-Kou's 1977 paper establishes hardness of the equivalent minimum-duplication
-consecutive-retrieval problem from Hamiltonian Path. The proof here records the
-private-symbol and shared-edge overlap construction for the fixed bounded-string
-search contract, including recovery from every valid output. The upstream
-issue's unrelated closed-neighborhood proposal is not used.
+Kou's Theorem 5 on printed page 74 gives this exact construction for the
+equivalent minimum-duplication consecutive-retrieval problem: records
+`R=E union V`, the query for vertex `v` contains its private vertex record and
+all incident edge records, and the bound is `1-n+sum_v |S_v|`. The proof here
+spells out the interval-forest converse and supplies recovery from every valid
+bounded-string output. The upstream issue's unrelated closed-neighborhood
+proposal is not used.

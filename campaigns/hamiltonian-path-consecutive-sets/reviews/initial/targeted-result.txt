@@ -1,0 +1,1 @@
+{"arbitrary_window_choices": 34, "exhaustive_graphs_n_le_3": 12, "four_vertex_star_unsat": true, "invalid_false_no_accepted": true, "malformed_cases_rejected": 3, "multiple_window_strings": 0, "repeated_symbol_strings": 24, "result": "passed-with-domain-observation", "valid_target_strings": 34}

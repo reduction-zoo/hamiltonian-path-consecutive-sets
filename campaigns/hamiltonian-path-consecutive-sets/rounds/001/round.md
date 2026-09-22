@@ -9,9 +9,11 @@ false. The issue is marked `Wrong` and `Incomplete`.
 
 Garey and Johnson attribute Consecutive Sets hardness to Kou, *Polynomial
 Complete Consecutive Information Retrieval Problems*, SIAM Journal on Computing
-6(1):67--75 (1977), DOI 10.1137/0206004. Kou's paper studies the equivalent
-record-duplication formulation and cites Hamiltonian Path. Round 001 reconstructs
-the overlap mechanism directly for the fixed search contract.
+6(1):67--75 (1977), DOI 10.1137/0206004. Kou's Theorem 5 on printed page 74 gives
+this exact construction: records `R=E union V`, one query per vertex containing
+its private vertex record and incident edge records, and the bound
+`1-n+sum_i |Q_i|`. Round 001 supplies the complete interval converse and
+every-output recovery required by the fixed search contract.
 
 Primary sources:
 
@@ -60,3 +62,10 @@ consecutive recovered vertices.
 Passed all ten stored instances and 34 recoveries: 30 distinct positive target
 strings and four negative outputs. The star obstruction remained infeasible.
 The candidate is ready for independent verification.
+
+Independent verification passed every simple graph through four vertices: 76
+instances and 525 recoveries, including 456 repeated-symbol outputs. Fresh
+review independently checked all 34 valid strings on graphs through three
+vertices, 24 repeated-symbol strings, the four-vertex star and malformed CLI
+inputs. Its sole initial revision request was the exact Kou attribution recorded
+above; follow-up review advanced the candidate.

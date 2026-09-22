@@ -1,6 +1,6 @@
 # Campaign state
 
-Status: independently verified. Date: 2026-09-22. Authorized rounds: 20; used: 1;
+Status: ready_for_expert_review. Date: 2026-09-22. Authorized rounds: 20; used: 1;
 remaining: 19; mechanisms: 1.
 
 The campaign was selected from the board's fixed
@@ -27,7 +27,12 @@ measured usage are not yet recorded.
 |---|---|---|---|---|
 | 001 | Private vertex symbols and shared edge symbols | Prepared closed loop, especially the star branching obstruction | Passed: 10 instances, 34 recoveries | `rounds/001/round.md` |
 
+Independent verification passed 76 instances and 525 recoveries, including 456
+repeated-symbol outputs. Fresh review advanced after the provenance text was
+repaired to attribute the exact gadget and bound to Kou's Theorem 5.
+
 ## Next action
 
-Commit the independent verification, then obtain a fresh registered review of
-the proof, executable evidence and Kou provenance.
+Retain the reviewed candidate, reproducibility evidence and inspected manuscript
+for expert assessment. No publication or upstream action is authorized in this
+repository.
