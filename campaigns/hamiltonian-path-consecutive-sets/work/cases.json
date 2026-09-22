@@ -1,0 +1,12 @@
+[
+  {"name":"empty","source":{"vertices":[],"edges":[]},"feasible":true},
+  {"name":"singleton","source":{"vertices":["a"],"edges":[]},"feasible":true},
+  {"name":"edge","source":{"vertices":["a","b"],"edges":[["a","b"]]},"feasible":true},
+  {"name":"two-isolated","source":{"vertices":["a","b"],"edges":[]},"feasible":false},
+  {"name":"path-three","source":{"vertices":["a","b","c"],"edges":[["a","b"],["b","c"]]},"feasible":true},
+  {"name":"triangle","source":{"vertices":["a","b","c"],"edges":[["a","b"],["b","c"],["a","c"]]},"feasible":true},
+  {"name":"three-isolated","source":{"vertices":["a","b","c"],"edges":[]},"feasible":false},
+  {"name":"cycle-four","source":{"vertices":["a","b","c","d"],"edges":[["a","b"],["b","c"],["c","d"],["d","a"]]},"feasible":true},
+  {"name":"star-four","source":{"vertices":["a","b","c","d"],"edges":[["a","b"],["a","c"],["a","d"]]},"feasible":false},
+  {"name":"two-components","source":{"vertices":["a","b","c","d"],"edges":[["a","b"],["c","d"]]},"feasible":false}
+]

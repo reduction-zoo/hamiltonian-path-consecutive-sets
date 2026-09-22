@@ -1,0 +1,8 @@
+[project]
+name = "hamiltonian-path-consecutive-sets"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = ["z3-solver==5.1.0.0"]
+
+[tool.uv]
+package = false
