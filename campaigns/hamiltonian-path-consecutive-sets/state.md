@@ -1,6 +1,6 @@
 # Campaign state
 
-Status: candidate passed prepared checks. Date: 2026-09-22. Authorized rounds: 20; used: 1;
+Status: independently verified. Date: 2026-09-22. Authorized rounds: 20; used: 1;
 remaining: 19; mechanisms: 1.
 
 The campaign was selected from the board's fixed
@@ -29,5 +29,5 @@ measured usage are not yet recorded.
 
 ## Next action
 
-Commit the candidate and proof, then independently verify exhaustive small
-graphs, repeated-symbol strings and arbitrary occurrence choices.
+Commit the independent verification, then obtain a fresh registered review of
+the proof, executable evidence and Kou provenance.

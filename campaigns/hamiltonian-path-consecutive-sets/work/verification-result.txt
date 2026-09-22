@@ -1,0 +1,1 @@
+{"result": "passed", "instances": 76, "positive_instances": 41, "negative_instances": 35, "recoveries": 525, "repeated_symbol_outputs": 456}
