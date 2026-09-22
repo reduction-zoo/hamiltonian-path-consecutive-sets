@@ -128,5 +128,5 @@ This review ran in a separate registered research-reviewer subagent context and
 audited the current files directly. No filesystem sandbox, tool denial, or depth
 cap was enforced by the harness; write confinement to this review directory and
 the prohibition on delegation were instruction-only. No agents were spawned.
-The model route exposed to this reviewer was GPT-6 through Codex; no fast-model
+The model route exposed to this reviewer was gpt-5.6-sol through Codex; no model
 override was used, and no more specific serving identifier was exposed.
